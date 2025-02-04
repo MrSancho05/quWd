@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- (meta description) -->
+    <meta
+      name="description"
+      content="Green Stay - Ekoturizm kompaniyasi, ekologik toza dam olish uylari va sayohat paketlarini taklif qiladi."
+    />
+
+    <!-- Qidiruv tizimi uchun kalit so'zlar -->
+    <meta
+      name="keywords"
+      content="Green Stay, ekoturizm, ekologik toza dam olish, sayohat paketlari, ekologik maslahatlar"
+    />
+
+    <!-- Muallif haqida ma'lumot -->
+    <meta name="author" content="Doniyorov Quvoncbek" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="images/logo.ico" type="image/x-icon" />
+
+    <!-- css link ulanishi -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome linki -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Sahifa sarlavhasi -->
+    <title>Green Stay</title>
+  </head>
+  <body>
+    <!-- Header bo'limi -->
+    <header>
+      <!-- Navbar bo'limi -->
+      <nav class="navbar">
+        <div class="container">
+          <div class="logo">
+            <a href="index.html" style="text-transform: capitalize"
+              >Green Stay</a
+            >
+          </div>
+          <div class="menu-icon" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#main">Bosh sahifa</a></li>
+            <li><a href="#about-us">Biz haqimizda</a></li>
+            <li><a href="#services">Xizmatlar</a></li>
+            <li><a href="#membership">Paketlar</a></li>
+            <!-- <li><a href="#testimonials">Sharhlar</a></li> -->
+          </ul>
+          <a href="#contact">
+            <button class="cta-btn">Aloqa</button>
+          </a>
+        </div>
+      </nav>
+      <!-- Hero bo'limi -->
+      <section class="hero" id="main">
+        <div class="hero-content">
+          <h1 class="hero-title">
+            "Green Stay" – Tabiat Bag‘rida <br />
+            <span>Barqaror Dam Olish!</span>
+          </h1>
+          <p class="hero-description">
+            Ekologik toza uylar va tabiiy manzaralar bilan unutilmas sayohatni
+            hoziroq rejalashtiring!
+          </p>
+          <a href="#services" class="hero-btn">Xizmatlar bilan tanishing</a>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <!-- Biz haqimizda bo'limi -->
+      <section id="about-us" class="about-section">
+        <div class="container2">
+          <h2 class="section-title">Biz Haqimizda</h2>
+          <p class="section-description">
+            "Green Stay" ekologik toza dam olishni targ'ib qiluvchi kompaniya
+            bo'lib, mijozlarimizga barqaror energiya manbalaridan foydalangan
+            holda qulay va tabiiy muhitda dam olish imkoniyatini yaratamiz. Biz
+            bilan sayohat qilib, kelajakka sarmoya qiling!
+          </p>
+
+          <div class="features">
+            <div class="feature-item">
+              <img
+                src="https://images.pexels.com/photos/26653522/pexels-photo-26653522/free-photo-of-home-in-the-heart.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Ekologik toza uylar"
+              />
+              <h3>Ekologik Toza Uylar</h3>
+              <p>
+                Quyosh energiyasi va suvni tejash texnologiyalaridan foydalangan
+                holda barqaror yashash joylari.
+              </p>
+            </div>
+
+            <div class="feature-item">
+              <img
+                src="https://images.pexels.com/photos/30391146/pexels-photo-30391146/free-photo-of-red-panda-nestled-among-mossy-trees-in-forest.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Mas’uliyatli sayohat"
+              />
+              <h3>Mas’uliyatli Sayohat</h3>
+              <p>
+                Mahalliy hamjamiyat bilan hamkorlikda ekologik toza sayohat
+                turlari.
+              </p>
+            </div>
+
+            <div class="feature-item">
+              <img
+                src="https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt="Barqaror kelajak"
+              />
+              <h3>Barqaror kelajak</h3>
+              <p>
+                Atrof-muhitni asrashga hissa qo‘shish uchun har bir sayohatdan
+                ekologik loyihalarga daromad yo‘naltiramiz.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Xizmatlar bo'limi -->
+      <section class="services-section" id="services">
+        <div class="container2">
+          <h2 class="section-title">Bizning Xizmatlarimiz</h2>
+          <div class="services-cards">
+            <div class="service-card">
+              <div class="emoji">
+                <img
+                  src="https://images.pexels.com/photos/28344021/pexels-photo-28344021/free-photo-of-wooden-wine-barrel-cabins-with-dining-table-in-the-fall.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Ekologik dam olish joylari"
+                />
+              </div>
+              <h3>Ekologik Dam Olish Joylari</h3>
+              <p>
+                Quyosh energiyasi bilan ta’minlangan va tabiiy resurslarni
+                tejovchi dam olish maskanlari.
+              </p>
+            </div>
+            <div class="service-card">
+              <div class="emoji">
+                <img
+                  src="https://images.pexels.com/photos/2161449/pexels-photo-2161449.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Ekoturlar"
+                />
+              </div>
+              <h3>Ekoturlar</h3>
+              <p>Atrof-muhitga zarar yetkazmaydigan maxsus sayohat rejalari.</p>
+            </div>
+            <div class="service-card">
+              <div class="emoji">
+                <img
+                  src="https://images.pexels.com/photos/30396772/pexels-photo-30396772/free-photo-of-men-having-a-discussion-outdoors-under-clear-sky.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Ekologik maslahatlar"
+                />
+              </div>
+              <h3>Ekologik Maslahatlar</h3>
+              <p>Barqaror sayohat va yashash uchun foydali tavsiyalar.</p>
+            </div>
+            <div class="service-card">
+              <div class="emoji">
+                <img
+                  src="https://images.pexels.com/photos/7475178/pexels-photo-7475178.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  alt="Tabiatni qo‘llab-quvvatlash"
+                />
+              </div>
+              <h3>Tabiatni Qo‘llab-quvvatlash</h3>
+              <p>
+                O‘rmonlarni tiklash va toza energiya tashabbuslarini
+                moliyalashtirish uchun xayriya qilish imkoniyati.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Azolik bo'limi -->
+      <section class="membership-section" id="membership">
+        <div class="container2">
+          <h2 class="section-title">A'zolik Paketlarimiz</h2>
+          <div class="membership-cards">
+            <div class="membership-card">
+              <div class="card">
+                <div class="card-content">
+                  <div class="emoji">🥉</div>
+                  <h3>Asosiy Paket</h3>
+                  <ul>
+                    <li>🏠 Byudjetga mos ekologik uylarga kirish.</li>
+                    <li>
+                      📩 Ekologik sayohat bo'yicha maslahatlar va tavsiyalar
+                      bilan oylik axborot byulleteni.
+                    </li>
+                    <li>
+                      🌱 Bitta qisqa sayohat uchun kichik uglerodli kredit.
+                    </li>
+                  </ul>
+                  <div class="price">Narx: $10/kun</div>
+                  <a href="#" class="details-btn">Batafsil</a>
+                </div>
+              </div>
+            </div>
+            <div class="membership-card">
+              <div class="card">
+                <div class="card-content">
+                  <div class="emoji">🥈</div>
+                  <h3>O'rta Paket</h3>
+                  <ul>
+                    <li>🏡 O'rta darajadagi eko-uylar va villalarga kirish.</li>
+                    <li>
+                      🎟️ Hamkor tashkilotlar bilan ekskursiya uchun chegirmalar.
+                    </li>
+                    <li>
+                      🌍 Ikki qisqa muddatli sayohat uchun oylik uglerod-ofset
+                      krediti.
+                    </li>
+                    <li>
+                      🌳 O'rmonlarni qayta tiklashga xayr-ehson ham kiritilgan.
+                    </li>
+                  </ul>
+                  <div class="price">Narx: $80/oy</div>
+                  <a href="#" class="details-btn">Batafsil</a>
+                </div>
+              </div>
+            </div>
+            <div class="membership-card">
+              <div class="card">
+                <div class="card-content">
+                  <div class="emoji">🥇</div>
+                  <h3>Premium Paket</h3>
+                  <ul>
+                    <li>
+                      🏰 VIP xizmatlari bilan premium eko-lyuks uylarga kirish.
+                    </li>
+                    <li>
+                      🗺️ Har qanday yo'nalish uchun shaxsiylashtirilgan ekologik
+                      sayohat rejalari.
+                    </li>
+                    <li>
+                      ♻️ Barcha sayohatlar uchun cheksiz uglerod-ofset
+                      kreditlari.
+                    </li>
+                    <li>🚵‍♂️ Bepul mahalliy ekotur kiradi.</li>
+                    <li>
+                      📞 24/7 mijozlarga xizmat ko'rsatish ishonch telefoniga
+                      kirish.
+                    </li>
+                  </ul>
+                  <div class="price">Narx: $150/oy</div>
+                  <a href="#" class="details-btn">Batafsil</a>
+                </div>
+              </div>
+            </div>
+            <div class="membership-card">
+              <div class="card">
+                <div class="card-content">
+                  <div class="emoji">🎯</div>
+                  <h3>Maxsus Paketlar</h3>
+                  <ul>
+                    <li>
+                      👥 Kattaroq guruhlar yoki korporativ dam olish uchun
+                      moslashtirilgan paketlar.
+                    </li>
+                    <li>
+                      🌟 Qo'shimcha ekologik qulayliklar yoki boshqariladigan
+                      sayohatlar.
+                    </li>
+                    <li>
+                      📌 Mijozlar xususiylashtirish imkoniyatlari uchun
+                      kompaniyaga murojaat qilishlari kerak.
+                    </li>
+                  </ul>
+                  <div class="price">Narx: $500/oy</div>
+                  <a href="#" class="details-btn">Batafsil</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sharhlar bo'limi -->
+      <!-- <section id="testimonials" class="testimonials-section">
+        <div class="container2">
+          <h2 class="section-title">Mijozlar Biz Haqimizda Nima Deyishadi</h2>
+          <p class="section-description">
+            Mijozlarimizning fikrlari biz uchun juda muhim. Ularning fikrlarini
+            tinglab, xizmatlarimizni doimiy ravishda takomillashtirib boramiz.
+          </p>
+          <div class="testimonials">
+            <div class="testimonial-item">
+              <img
+                src="https://media.istockphoto.com/id/1485546774/photo/bald-man-smiling-at-camera-standing-with-arms-crossed.jpg?b=1&s=612x612&w=0&k=20&c=9imIwWTJpXEQGM6sUie2zeO7sKBQiSvpmkopyjv3ZdM="
+                alt="Aliyor Qodirov"
+                class="testimonial-img"
+              />
+              <p class="testimonial-text">
+                "WorkHub Centralda ishlashni juda yaxshi ko‘raman. Ular taqdim
+                etgan qulayliklar mening samaradorligimni oshirdi!"
+              </p>
+              <h4 class="testimonial-author">Aliyor Qodirov</h4>
+              <span class="testimonial-role">Frilanser</span>
+            </div>
+            <div class="testimonial-item">
+              <img
+                src="https://img.freepik.com/premium-photo/portrait-young-beautiful-woman_274222-9165.jpg?semt=ais_hybrid"
+                alt="Dilnoza Karimova"
+                class="testimonial-img"
+              />
+              <p class="testimonial-text">
+                "Ish muhiti ajoyib va juda qulay. Ularning hamjamiyati bilan
+                bog‘lanib, bir necha ajoyib loyihalar ustida ishladik."
+              </p>
+              <h4 class="testimonial-author">Dilnoza Karimova</h4>
+              <span class="testimonial-role">Startap Asoschisi</span>
+            </div>
+            <div class="testimonial-item">
+              <img
+                src="https://img.freepik.com/free-photo/cheerful-unshaven-guy-stands-sideways-holds-background-gestures-with-both-hands-as-if-carrying-something-shows-height-thing_273609-18554.jpg?semt=ais_hybrid"
+                alt="Shahzod Ergashev"
+                class="testimonial-img"
+              />
+              <p class="testimonial-text">
+                "Bu joy mening kichik biznesim uchun mukammal tanlov bo‘ldi.
+                Yig‘ilish xonalari professional va yaxshi jihozlangan."
+              </p>
+              <h4 class="testimonial-author">Shahzod Ergashev</h4>
+              <span class="testimonial-role">Biznes Egasi</span>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="contact-section" id="contact">
+        <div class="container2">
+          <h2 class="section-title">Bog'lanish</h2>
+          <p class="contact-description">
+            Savollaringiz yoki takliflaringiz bo‘lsa, quyidagi shakl orqali biz
+            bilan bog‘lanishingiz mumkin. Shuningdek, ofisimizga tashrif
+            buyurishingiz uchun manzilimizni quyida topishingiz mumkin.
+          </p>
+
+          <div class="contact-content">
+            <!-- Form Section -->
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">Ismingiz</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Ismingizni kiriting"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Elektron pochta</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Pochta manzilingizni kiriting"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message">Xabar</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  placeholder="Xabaringizni kiriting"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Yuborish</button>
+            </form>
+
+            <!-- Additional Info and Map -->
+            <div class="additional-info-map">
+              <div class="additional-info">
+                <h3>Biz bilan bog'lanish</h3>
+                <p>
+                  <strong>Manzil:</strong> Toshkent shahri, Sirg'ali tumani,
+                  Moshina bozor ro'parasi, 18-uy
+                </p>
+                <p><strong>Telefon:</strong> +998 91 234 56 78</p>
+                <p><strong>Email:</strong> info@staygreen.uz</p>
+                <p>
+                  <strong>Ish vaqti:</strong> Dushanba - Juma: 09:00 - 18:00
+                </p>
+              </div>
+              <div class="map-container">
+                <h3>Manzilimiz</h3>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.762932189674!2d69.20427331528732!3d41.311158279271836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef4cd1b5e5f9b%3A0xaadce869c6485766!2sAmir%20Temur%20Square!5e0!3m2!1sen!2s!4v1617712092972!5m2!1sen!2s"
+                  width="100%"
+                  height="200"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer bo'limi -->
+    <footer class="footer" id="footer">
+      <div class="container2">
+        <div class="footer-content">
+          <ul class="footer-links">
+            <li><a href="#main">Bosh sahifa</a></li>
+            <li><a href="#about-us">Biz haqimizda</a></li>
+            <li><a href="#services">Xizmatlar</a></li>
+            <li><a href="#membership">Paketlar</a></li>
+            <!-- <li><a href="#testimonials">Sharhlar</a></li> -->
+            <li><a href="#contact">Aloqa</a></li>
+          </ul>
+          <p>&copy; 2025 Stay Green. Barcha huquqlar himoyalangan.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
